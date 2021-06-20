@@ -1,8 +1,9 @@
-import { BaseSchema, ColorType } from "./BaseSchema";
+import { BaseSchema } from "./BaseSchema";
+import { ColorType } from "./types";
 
 export type IBackgroundColorKey = "background-color" | "backgroundColor"
 
-export interface IBackgroundColor extends BaseSchema {
+export interface IBackgroundColorProperty extends BaseSchema {
     key: IBackgroundColorKey;
     value?: ColorType;
     defaultValue?: ColorType;

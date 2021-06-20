@@ -1,2 +1,2 @@
-!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n((e||self).schema={})}(this,function(e){e.add=function(e,n){return e+n}});
+"function"==typeof define&&define.amd&&define(function(){});
 //# sourceMappingURL=schema.umd.js.map

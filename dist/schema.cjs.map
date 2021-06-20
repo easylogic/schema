@@ -1,1 +1,1 @@
-{"version":3,"file":"schema.cjs","sources":["../src/index.ts"],"sourcesContent":["export const add = (a: number, b:number) => {\n    return a + b;\n}"],"names":["a","b"],"mappings":"YAAmB,SAACA,EAAWC,GAC3B,OAAOD,EAAIC"}
+{"version":3,"file":"schema.cjs","sources":[],"sourcesContent":[],"names":[],"mappings":""}

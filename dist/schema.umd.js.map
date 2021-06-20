@@ -1,1 +1,1 @@
-{"version":3,"file":"schema.umd.js","sources":["../src/index.ts"],"sourcesContent":["export const add = (a: number, b:number) => {\n    return a + b;\n}"],"names":["a","b"],"mappings":"sOAAmB,SAACA,EAAWC,GAC3B,OAAOD,EAAIC"}
+{"version":3,"file":"schema.umd.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}

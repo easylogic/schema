@@ -1,1 +1,4 @@
-export declare const add: (a: number, b: number) => number;
+import { IBackgroundColorProperty } from "./schema/IBackgroundColorProperty";
+import { IColorProperty } from "./schema/IColorProperty";
+import { IWidthProperty } from "./schema/IWidthProperty";
+export declare type Schema = IBackgroundColorProperty | IColorProperty | IWidthProperty;

@@ -1,16 +1,6 @@
-export interface IColor {
-    r: number;
-    g: number;
-    b: number;
-    a?: number;
-}
+import { SchemaType } from "./types";
 
-export type ColorType = IColor | string;
-
-export type SchemaType = ColorType | number | string | boolean | object;
-
-
-export interface BaseSchema {
+export interface BaseSchema { 
     key: string;
     type: SchemaType;
     value?: unknown;
