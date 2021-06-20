@@ -1,0 +1,1 @@
+!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define("schema",[],t):"object"==typeof exports?exports.schema=t():e.schema=t()}(self,function(){return(()=>{"use strict";var t={};return(()=>{var e=t;Object.defineProperty(e,"__esModule",{value:!0}),e.add=void 0;e.add=function(e,t){return e+t}})(),t})()});

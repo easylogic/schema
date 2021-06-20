@@ -1,0 +1,29 @@
+{
+  "name": "@easylogic/schema",
+  "version": "0.0.1",
+  "description": "css code modeling schema for editor",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": "./dist/schema.modern.js",
+  "main": "./dist/schema.cjs",
+  "module": "./dist/schema.module.js",
+  "unpkg": "./dist/schema.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easylogic/schema.git"
+  },
+  "keywords": [],
+  "author": "easylogic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easylogic/schema/issues"
+  },
+  "homepage": "https://github.com/easylogic/schema#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  }
+}
